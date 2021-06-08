@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,600&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "poppins",sans-serif;
+    font-size: large;
+    margin:0;
+    color:white;
+    background-image: url("newyear.jpg");
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+}
+h1{
+    font-weight: normal;
+    font-size:4rem;
+    margin-top:10rem;
+}
+.BIGTEXT{
+    font-size:6rem;
+    margin:0 2rem;
+}
+.ele{
+   justify-items: center;
+}
+.ele span{
+    margin:0 2rem;
+    font-size:1.5rem;
+}
